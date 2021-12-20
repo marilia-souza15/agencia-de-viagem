@@ -1,0 +1,69 @@
+body{
+
+    background-color: #FFFEA9;
+    margin:auto;
+    width: 80%;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu-horizontal ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #002855;
+
+}
+#menu-horizontal ul li{
+    display: inline;
+}
+#menu-horizontal ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+#menu-horizontal ul li a:hover{
+    background-color: rgb(105, 179, 192);
+}
+
+#contato{
+    color: white;
+}
+h1{
+    color: #002855;
+}
+p{
+    color: #002855;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    color: #FEFBF3;
+    background-color: #155094;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.formulario{
+    width: 100%;
+    padding: 5px 0px;
+
+}
+.formulario > *{
+    width: 100%;
+}
+
+#destinos{
+    color: black;
+
+}
+
+
